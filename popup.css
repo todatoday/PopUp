@@ -1,0 +1,38 @@
+.btnPopup{
+    background-color: brown;
+    padding: 1em 2em;
+    color: white;
+    font-size: 14pt;
+    cursor: pointer;
+}
+.btnPopup:hover{
+    background-color: chartreuse;
+    color: black;
+}
+.overlay{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+   display: none;
+
+
+}
+.popup{
+    margin: 20% auto;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 15px 20px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+
+
+}
+.btnClose{
+    float: right;
+    cursor: pointer;
+    
+
+}
